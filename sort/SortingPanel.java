@@ -34,7 +34,7 @@ public class SortingPanel extends JPanel {
     public SortingPanel() {
 
         random = new Random();
-        array = new int[100];
+        array = new int[80];
         this.setArray();
 
         bubbleSort = new BubbleSort(array);
@@ -331,7 +331,7 @@ public class SortingPanel extends JPanel {
                     if (isSorted() || isRunning == false) {
                         quickSort.setTop(-1);
                         quickSort.push(0);
-                        quickSort.push(99);
+                        quickSort.push(79);
                         quickSort.setArrayIndex(Integer.MAX_VALUE);
                         quickSort.setCompareIndex(Integer.MAX_VALUE);
                         quickSort.setPartition(-1);
